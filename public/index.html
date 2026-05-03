@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>DreamGallery</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="cabecalho">
+<header class="cabecalho d-flex justify-content-between align-items-center">
   <div class="logo">
     <img src="logodream.png" alt="Logo DreamGallery" class="imagem-logo">
   </div>
-  <nav class="menu">
+  <nav class="menu d-flex">
     <a href="#">Home</a>
     <a href="#">Galeria</a>
     <a href="#">Sobre</a>
@@ -19,56 +22,58 @@
   </nav>
 </header>
 
-<main class="principal">
+<main class="principal container">
   <section class="banner">
-    <img src="banner.png" alt="Banner DreamGallery" class="imagem-banner">
+    <img src="banner.png" alt="Banner DreamGallery" class="imagem-banner img-fluid">
   </section>
 
-  <section class="galeria">
-    <article class="cartao">
+  <section class="galeria row">
+    
+    <article class="cartao col-12 col-md-6 col-lg-4">
       <h3 class="titulo-foto">Mulher em barco</h3>
-      <img src="https://picsum.photos/id/1011/300/300?grayscale" alt="Mulher em barco grayscale">
-      <div class="informacoes">
+      <img src="https://picsum.photos/id/1011/300/300?grayscale" alt="">
+      <div class="informacoes d-flex justify-content-between">
         <span>❤️ 6 💬 9</span>
-        <button class="botao">Salvar</button>
+        <button class="botao btn btn-primary btn-sm">Salvar</button>
       </div>
     </article>
 
-    <article class="cartao">
+    <article class="cartao col-12 col-md-6 col-lg-4">
       <h3 class="titulo-foto">Dog fofo 1</h3>
-      <img src="https://picsum.photos/id/1025/300/300?grayscale" alt="Dog fofo 1 grayscale">
-      <div class="informacoes">
+      <img src="https://picsum.photos/id/1025/300/300?grayscale" alt="">
+      <div class="informacoes d-flex justify-content-between">
         <span>❤️ 3 💬 3</span>
-        <button class="botao">Salvar</button>
+        <button class="botao btn btn-primary btn-sm">Salvar</button>
       </div>
     </article>
 
-    <article class="cartao">
+    <article class="cartao col-12 col-md-6 col-lg-4">
       <h3 class="titulo-foto">Homem e arco-íris</h3>
-      <img src="https://picsum.photos/id/1035/300/300?grayscale" alt="Homem e arco iris grayscale">
-      <div class="informacoes">
+      <img src="https://picsum.photos/id/1035/300/300?grayscale" alt="">
+      <div class="informacoes d-flex justify-content-between">
         <span>❤️ 1 💬 0</span>
-        <button class="botao">Salvar</button>
+        <button class="botao btn btn-primary btn-sm">Salvar</button>
       </div>
     </article>
 
-    <article class="cartao">
+    <article class="cartao col-12 col-md-6 col-lg-4">
       <h3 class="titulo-foto">Floresta com rio top</h3>
-      <img src="https://picsum.photos/id/1043/300/300?grayscale" alt="Floresta com rio top grayscale">
-      <div class="informacoes">
+      <img src="https://picsum.photos/id/1043/300/300?grayscale" alt="">
+      <div class="informacoes d-flex justify-content-between">
         <span>❤️ 0 💬 0</span>
-        <button class="botao">Salvar</button>
+        <button class="botao btn btn-primary btn-sm">Salvar</button>
       </div>
     </article>
 
-    <article class="cartao">
+    <article class="cartao col-12 col-md-6 col-lg-4">
       <h3 class="titulo-foto">Mar e montanhas de mar</h3>
-      <img src="https://picsum.photos/id/1050/300/300?grayscale" alt="Mar e montanhas de mar grayscale">
-      <div class="informacoes">
+      <img src="https://picsum.photos/id/1050/300/300?grayscale" alt="">
+      <div class="informacoes d-flex justify-content-between">
         <span>❤️ 7 💬 2</span>
-        <button class="botao">Salvar</button>
+        <button class="botao btn btn-primary btn-sm">Salvar</button>
       </div>
     </article>
+
   </section>
 </main>
 

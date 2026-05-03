@@ -38,11 +38,7 @@
 }
 
 .galeria {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   gap: 25px;
-  flex-wrap: wrap;
 }
 
 .cartao {
