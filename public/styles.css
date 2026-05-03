@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #4a4a8c;
+  background-color: #f5f5ff;
+}
+
+.logo .imagem-logo {
+  height: 60px;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4a4a8c;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.imagem-banner {
+  width: 100%;
+  max-height: 550px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.cartao {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 0 0 auto;
+}
+
+.titulo-foto {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+}
+
+.cartao img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cartao .informacoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.botao {
+  padding: 6px 12px;
+  background-color: #4a4a8c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rodape {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #4a4a8c;
+  background-color: #f5f5ff;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria {
+    justify-content: center;
+  }
+
+  .imagem-banner {
+    max-height: 200px;
+  }
+}
